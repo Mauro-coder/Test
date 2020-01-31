@@ -11,6 +11,11 @@ import ComponentSayHi from "./components/ComponentSayHi";
 
 export default {
   name: "App",
+  data: function() {
+    return {
+      box: ""
+    };
+  },
   components: {
     ComponentSayHi
   }
