@@ -6,6 +6,11 @@
 
 <script>
 export default {
+  data: function() {
+    return {
+      box: 'box'
+    }
+  },
   name: "ComponentSayHi",
   props: {
     msg: String
