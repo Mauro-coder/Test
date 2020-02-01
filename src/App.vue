@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>greetings app</h1>
+    <h1>Greetings App</h1>
     <input v-model="box" placeholder="Type your name here">
     <ComponentSayHi :msg="box"/>
   </div>
